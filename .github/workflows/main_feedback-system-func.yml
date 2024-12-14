@@ -47,7 +47,7 @@ jobs:
           app_location: ${{ env.FRONTEND_APP_LOCATION }} # Path to the React app
           output_location: ${{ env.FRONTEND_BUILD_OUTPUT }} # Path to the production build
           api_location: ${{ env.BACKEND_APP_LOCATION }} # Path to the backend
-          azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_BRAVE_HILL_0672C4B03 }}
+          azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APP_TOKEN }}
 
 
   build-backend:
