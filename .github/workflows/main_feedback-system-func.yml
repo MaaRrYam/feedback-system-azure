@@ -9,7 +9,7 @@ on:
 env:
   PYTHON_VERSION: '3.10' # Python version for the backend
   FRONTEND_APP_LOCATION: 'frontend' # Path to the frontend (React app)
-  FRONTEND_BUILD_OUTPUT: 'frontend/build' # Build output location for React app
+  FRONTEND_BUILD_OUTPUT: 'build' # Build output location for React app
   BACKEND_APP_LOCATION: 'backend' # Path to the backend (Azure Functions)
 
 jobs:
